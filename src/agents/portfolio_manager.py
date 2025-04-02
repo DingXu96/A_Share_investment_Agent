@@ -73,7 +73,11 @@ def portfolio_management_agent(state: AgentState):
             - Only buy if you have available cash
             - Only sell if you have shares to sell
             - Quantity must be ≤ current position for sells
-            - Quantity must be ≤ max_position_size from risk management"""
+            - Quantity must be ≤ max_position_size from risk management
+            
+            Language:
+            - Use Chinese for all output
+            """
     }
 
     # Create the user message
